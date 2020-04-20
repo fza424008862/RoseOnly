@@ -1,0 +1,379 @@
+/*底部开始*/
+			
+			.footer {
+				width: 100%;
+				clear: both;
+				background: #414141;
+				min-width: 1240px;
+				color: #fff;
+				top: 830px;
+				position: absolute;
+			}
+			/*上半部div*/
+			
+			.footer_box {
+				position: relative;
+				width: 1240px;
+				margin: 0 auto;
+				height: 160px;
+				padding-top: 50px;
+			}
+			
+			.footer ul {
+				margin-top: 0px;
+				float: left;
+				padding: 0 66px;
+				text-align: center;
+			}
+			
+			.footer ul p {
+				margin-bottom: 20px;
+				font-size: 14px;
+				margin-top: 0px;
+			}
+			
+			.footer ul li {
+				list-style: none;
+				line-height: 30px;
+				color: #000000;
+				text-align: left;
+				margin-left: 1px;
+			}
+			
+			.footer ul li a {
+				color: #AFAFAF;
+				font-size: 14px;
+			}
+			
+			.f_weixin {
+				background: url(img/weixin.png) no-repeat right;
+			}
+			
+			.f_weibo {
+				background: url(img/weibo.jpg) no-repeat right;
+			}
+			/*底部开始*/
+			
+			.footer {
+				width: 100%;
+				clear: both;
+				background: #414141;
+				min-width: 1240px;
+				color: #fff;
+			}
+			/*上半部div*/
+			
+			.footer_box {
+				position: relative;
+				width: 1240px;
+				margin: 0 auto;
+				height: 160px;
+				padding-top: 50px;
+			}
+			
+			.footer ul {
+				margin-top: 0px;
+				float: left;
+				padding: 0 66px;
+				text-align: center;
+			}
+			
+			.footer ul p {
+				margin-bottom: 20px;
+				font-size: 14px;
+				margin-top: 0px;
+			}
+			
+			.footer ul li {
+				list-style: none;
+				line-height: 30px;
+				color: #000000;
+				text-align: left;
+				margin-left: 1px;
+			}
+			
+			.footer ul li a {
+				color: #AFAFAF;
+				font-size: 14px;
+				text-decoration: none;
+			}
+			
+			.f_weixin {
+				background: url(img/weixin.png) no-repeat right;
+			}
+			
+			.f_weibo {
+				background: url(img/weibo.jpg) no-repeat right;
+			}
+			
+			.new_r {
+				float: right;
+			}
+			
+			.footer .new_r dt {
+				float: left;
+				margin-right: 25px;
+				width: 102px;
+				height: 101px;
+				background: url(img/121.jpg);
+				background-size: 100%;
+			}
+			
+			.footer .new_r dd {
+				float: left;
+				color: #AFAFAF;
+				font-size: 12px;
+				line-height: 22px;
+			}
+			
+			.footer .new_r dd h2 {
+				font-size: 16px;
+			}
+			
+			.footer .new_r dd div {
+				padding-top: 11px;
+			}
+			
+			.footer-yyzz {
+				display: block !important;
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				width: 240px;
+				color: #FFFFFF;
+				font-size: 12px;
+				text-align: right;
+			}
+			
+			.footer-yyzz a {
+				margin-left: 15px;
+				padding-left: 15px;
+				background: url(img/z.png) no-repeat left center;
+				background-size: auto 80%;
+				font-size: 12px;
+				color: #AFAFAF;
+			}
+			/*底部下半部分*/
+			
+			.foot-nav {
+				width: 1240px;
+				height: 58px;
+				background: #414141;
+				color: #AFAFAF;
+				clear: both;
+				text-align: right;
+				margin: 0 auto;
+				font-size: 12px;
+			}
+			
+			.new_r {
+				float: right;
+			}
+			
+			.footer .new_r dt {
+				float: left;
+				margin-right: 25px;
+				width: 102px;
+				height: 101px;
+				background: url(img/121.jpg);
+				background-size: 100%;
+			}
+			
+			.footer .new_r dd {
+				float: left;
+				color: #AFAFAF;
+				font-size: 12px;
+				line-height: 22px;
+			}
+			
+			.footer .new_r dd h2 {
+				font-size: 16px;
+			}
+			
+			.footer .new_r dd div {
+				padding-top: 11px;
+			}
+			
+			.footer-yyzz {
+				display: block !important;
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				width: 240px;
+				color: #FFFFFF;
+				font-size: 12px;
+				text-align: right;
+			}
+			
+			.footer-yyzz a {
+				margin-left: 15px;
+				padding-left: 15px;
+				background: url(img/z.png) no-repeat left center;
+				background-size: auto 80%;
+				font-size: 12px;
+				color: #AFAFAF;
+				text-decoration: none;
+			}
+			/*底部下半部分*/
+			
+			.foot-nav {
+				width: 1240px;
+				height: 58px;
+				background: #414141;
+				color: #AFAFAF;
+				clear: both;
+				text-align: right;
+				margin: 0 auto;
+				font-size: 12px;
+			}
+			/*客服*/
+			
+			.mes_content {
+				width: 115px;
+				height: 120px;
+				position: fixed;
+				bottom: 55px;
+				right: 50px;
+			}
+			
+			.mes_icon {
+				width: 102px;
+				height: 120px;
+				position: relative;
+				background: #FFFFFF;
+				border: 1px solid #dcdcdc;
+				border-radius: 5px;
+			}
+			
+			#zhichiBtnBox {
+				position: fixed;
+				z-index: 999;
+				box-sizing: content-box;
+				height: 45px;
+				bottom: 100px;
+				width: 45px;
+				right: 5px;
+				background: #969696;
+				border-radius: 5px;
+			}
+			
+			#zhichiBtn {
+				text-decoration: none;
+				outline: none;
+				font-family: Microsoft Yahei, Arial, Helvetica;
+				color: #fff;
+				font-size: 16px;
+				display: inline-block;
+				margin: 0px;
+				padding: 0px;
+				border: none;
+				float: none;
+			}
+			
+			#zhichiBtn img {
+				vertical-align: middle;
+				border: none;
+				float: none;
+				position: static;
+				margin-left: 0px;
+				width: 42px;
+				height: 45px;
+			}
+			
+			.mes_icon>div {
+				text-align: center;
+				font-size: 12px;
+			}
+			/*边框旁边的小箭头*/
+			
+			.tel_sj {
+				position: absolute;
+				right: -9px;
+				top: 45px;
+			}
+			
+			.tel_txt {
+				color: #8d8d8d;
+				font-size: 12px;
+				background: url(img/tel.svg) no-repeat -16px -9px;
+				background-size: 66px;
+				line-height: 25px;
+				margin: 0px;
+				margin-top: 8px;
+				padding-left: 11px;
+				letter-spacing: 1px;
+			}
+			
+			.tel_phone {
+				color: #414141;
+				font-size: 12px;
+				margin: 0px;
+			}
+			/*白色盒子的实线*/
+			
+			.tel_line {
+				width: 86px;
+				border-top: 1px solid #dfdfdf;
+				margin: 0px auto;
+				margin-top: 12px;
+			}
+			/*红色按钮在线客服*/
+			
+			.zxkf_txt {
+				background: #969696;
+				width: 86px;
+				height: 28px;
+				color: #FFFFFF;
+				line-height: 28px;
+				border-radius: 3px;
+				margin: 0px auto;
+				margin-top: 8px;
+				display: block;
+				letter-spacing: 1px;
+			}
+			
+			.zxkf_txt>a {
+				color: #FFFFFF;
+			}
+			/*二维码盒子*/
+			
+			#ewmBox {
+				position: fixed;
+				z-index: 999;
+				box-sizing: content-box;
+				height: 45px;
+				bottom: 155px;
+				width: 45px;
+				right: 5px;
+				background: #969696;
+				border-radius: 5px;
+			}
+			
+			#ewm {
+				text-decoration: none;
+				outline: none;
+				font-family: Microsoft Yahei, Arial, Helvetica;
+				color: #fff;
+				font-size: 16px;
+				display: inline-block;
+				margin: 0px;
+				padding: 0px;
+				border: none;
+				float: none;
+			}
+			
+			#ewm img {
+				margin-left: 5px;
+				width: 35px;
+				height: 45px;
+			}
+			
+			.ewm_content {
+				width: 140px;
+				height: 206px;
+				position: fixed;
+				bottom: 41px;
+				right: 57px;
+				display: none;
+				background: url(img/kk.png);
+			}

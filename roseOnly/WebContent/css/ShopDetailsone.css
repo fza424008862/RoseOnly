@@ -1,0 +1,375 @@
+.sd_body{
+	width: 1240px;
+    margin: 0px auto 0;
+}
+.sd_body_shangpin{
+	width: 960px;
+    margin: 0 auto;
+    color: #000;
+}
+.sd_body_shangpin_ylt{
+	width: 530px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+.sd_body_shangpin_ylt_big{
+	width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sd_body_shangpin_ylt_big img{
+	width: 350px;
+	height: 350px;
+}
+.sd_body_shangpin_ylt_xiao{
+	display: table;
+    margin: 20px auto 0px;
+}
+.sd_body_shangpin_ylt_xiao div{
+	cursor: pointer;
+	height: 55px;
+    width: 20px;
+    line-height: 55px;
+    font-weight: bold;
+    float:left;
+}
+.sd_body_shangpin_ylt_xiao a{
+	float:left;
+	display: inline-block;
+    float: left;
+    /*border: solid 1.2px #7e7e7e;*/
+    text-decoration: none;
+    margin-right: 7px;
+}
+.sd_body_shangpin_ylt_xiao a img{
+	width: 55px;
+    height: 56px;
+    display: block;
+    border: solid 1px #7e7e7e;
+}
+.sd_body_shangpin_xinxi{
+	padding-top: 65px;
+    width: 350px;
+    float: right;
+    margin-bottom: 30px;
+}
+.sd_body_shangpin_xinxi_txt{
+	font-size: 18px;
+    line-height: 25px;
+    color: #414141;
+}
+.sd_body_shangpin_xinxi_bm{
+	font-size: 12px;
+    padding-top: 10px;
+    color: #7b7b7b;
+}
+.sd_body_shangpin_xinxi_pay{
+	width: 330px;
+    font-size: 24px;
+    line-height: 45px;
+    margin: 15px 0 13px 0;
+    padding: 5px 0;
+    border-top: solid 1px #b3b3b3;
+    border-bottom: solid 1px #b3b3b3;
+    position: relative;
+    padding-left: 40px;
+}
+.sd_body_shangpin_xinxi_pay span{
+	font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+.s_b_s_x_pay_discount{
+	font-size: 14px;
+    color: red;
+    float: left;
+    font-family: '宋体','STSong';
+    margin-right: 10px;
+    font-weight: bold;
+}
+.s_b_s_x_pay_original{
+	font-size: 14px;
+    color: #838383;
+    float: right;
+    font-family: '宋体','STSong';
+    margin-left: 5px;
+}
+.s_b_s_X_pay_color{
+	line-height: 40px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.s_b_s_X_pay_color_div{
+	min-width: 100px;
+    min-height: 45px;
+}
+.s_b_s_X_pay_color_div img{
+	width: 40px;
+    height: 40px;
+    border: solid 2px #7e7e7e;
+    display: inline-block;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.sd_body_shangpin_xinxi_number{
+	font-size: 12px;
+    padding: 30px 0;
+    line-height: 20px;
+    color: #000;
+}
+.sd_body_shangpin_xinxi_number span{
+	line-height: 40px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.sd_body_shangpin_xinxi_number div{
+	width: 20px;
+    float: left;
+}
+.sd_body_shangpin_xinxi_number input{
+	font-size: 14px;
+    width: 40px;
+    height:43px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 0;
+    border: none;
+    border: solid 1px #b3b3b3;
+}
+.sd_body_shangpin_xinxi_number div .number_up{
+	display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: #b3b3b3 1px solid;
+    border-left: none;
+    background: url(../img/number_up.svg) 1px -2px;
+    background-size: 90% auto;
+}
+.sd_body_shangpin_xinxi_number div .number_down{
+	display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-right: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    background: url(../img/number_down.svg) 1px -1px;
+    background-size: 90% auto;
+}
+.sd_body_shangpin_xinxi_buy{
+	width: 160px;
+    line-height: 38px;
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+    margin: 30px 5px 15px -100px;
+    text-decoration: none;
+    text-align: center;
+    background: #414141;
+    color: #fff;
+    border: 1px solid #414141;
+}
+.sd_body_shangpin_xinxi_car{
+	width: 160px;
+    line-height: 38px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 30px 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #414141;
+}
+.sd_body_shangpin_xinxi_fwcn{
+	font-size: 12px;
+    padding-top: 10px;
+}
+/*回到顶部*/
+#back-to-top {
+	width: 45px;
+	height: 45px;
+	background: #969696;
+	position: fixed;
+	bottom: 45px;
+	right: 5px;
+	border-radius: 8px;
+}
+
+#back-to-top .go_top {
+	text-decoration: none;
+	display: block;
+	border-radius: 5px;
+	padding-left: 2px;
+}
+
+#back-to-top .go_top img {
+	width: 37px;
+	padding-top: 5px;
+}
+/*客服*/
+
+.mes_content {
+	width: 115px;
+	height: 120px;
+	position: fixed;
+	bottom: 55px;
+	right: 50px;
+}
+
+.mes_icon {
+	width: 102px;
+	height: 120px;
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+
+#zhichiBtnBox {
+	position: fixed;
+	z-index: 999;
+	box-sizing: content-box;
+	height: 45px;
+	bottom: 100px;
+	width: 45px;
+	right: 5px;
+	background: #969696;
+	border-radius: 5px;
+}
+
+#zhichiBtn {
+	text-decoration: none;
+	outline: none;
+	font-family: Microsoft Yahei, Arial, Helvetica;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	float: none;
+}
+
+#zhichiBtn img {
+	vertical-align: middle;
+	border: none;
+	float: none;
+	position: static;
+	margin-left: 0px;
+	width: 42px;
+	height: 45px;
+}
+
+.mes_icon>div {
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*边框旁边的小箭头*/
+
+.tel_sj {
+	position: absolute;
+	right: -9px;
+	top: 45px;
+}
+
+.tel_txt {
+	color: #8d8d8d;
+	font-size: 12px;
+	background: url(../img/tel.svg) no-repeat -16px -9px;
+	background-size: 66px;
+	line-height: 25px;
+	margin: 0px;
+	margin-top: 8px;
+	padding-left: 11px;
+	letter-spacing: 1px;
+}
+
+.tel_phone {
+	color: #414141;
+	font-size: 12px;
+	margin: 0px;
+}
+
+
+/*白色盒子的实线*/
+
+.tel_line {
+	width: 86px;
+	border-top: 1px solid #dfdfdf;
+	margin: 0px auto;
+	margin-top: 12px;
+}
+
+
+/*红色按钮在线客服*/
+
+.zxkf_txt {
+	background: #969696;
+	width: 86px;
+	height: 28px;
+	color: #FFFFFF;
+	line-height: 28px;
+	border-radius: 3px;
+	margin: 0px auto;
+	margin-top: 8px;
+	display: block;
+	letter-spacing: 1px;
+}
+
+.zxkf_txt>a {
+	color: #FFFFFF;
+}
+
+
+/*二维码盒子*/
+
+#ewmBox {
+	position: fixed;
+	z-index: 999;
+	box-sizing: content-box;
+	height: 45px;
+	bottom: 155px;
+	width: 45px;
+	right: 5px;
+	background: #969696;
+	border-radius: 5px;
+}
+
+#ewm {
+	text-decoration: none;
+	outline: none;
+	font-family: Microsoft Yahei, Arial, Helvetica;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	float: none;
+}
+
+#ewm img {
+	margin-left: 5px;
+	width: 35px;
+	height: 45px;
+}
+
+.ewm_content {
+	width: 140px;
+	height: 206px;
+	position: fixed;
+	bottom: 41px;
+	right: 57px;
+	display: none;
+	background: url(../img/kk.png);
+}

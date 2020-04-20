@@ -1,0 +1,423 @@
+html body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/*身体*/
+
+.rw_body {
+	width: 1240px;
+    margin: 0px auto 0;
+}
+/**/
+.rw_body_div{
+	width: 962px;
+    margin: 0 auto 30px;
+    min-height: 500px;
+}
+.rw_body_div_shopping{
+	width: 962px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.rw_body_div_shopping-a{
+	width: 962px;
+    height: 70px;
+    border-bottom: solid 1px #414141;
+}
+.rw_body_div_shopping-a div{
+	height: 70px;
+    line-height: 100px;
+    float: left;
+    font-size: 22px;
+    color: #414141;
+}
+.rw_body_div_shopping-a a{
+	width: 90px;
+    height: 70px;
+    line-height: 100px;
+    display: block;
+    color: #414141;
+    font-size: 14px;
+    float: right;
+    text-align: right;
+    background: url(../img/cart01.png) no-repeat scroll 0 42px;
+    text-decoration: none;
+}
+.rw_body_div_shopping-table{
+	width: 962px;
+    border-collapse: collapse;
+    font-size: 16px;
+    color: #414141;
+    border-bottom: solid 1px #414141;
+    text-align: center;
+}
+.rw_body_div_shopping-table tbody{
+	display: table-row-group;
+    vertical-align: middle;
+}
+.rw_body_div_shopping-table tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-bottom: solid 1px #414141;
+    height: 30px;
+    line-height: 30px;
+}
+.rw_body_div_shopping-table td{
+	display: table-cell;
+    vertical-align: inherit;
+}
+.rw_body_div_shopping-sel-all{
+	float: left;
+    position: relative;
+    margin-top: 25px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #414141;
+    padding-left: 15px;
+}
+.rw_body_div_shopping-sel-all input{
+	position: absolute;
+    margin: 0;
+}
+.rw_body_div_shopping-sel-all label{
+	display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    left: 35px;
+}
+.rw_body_div_shopping-heji{
+	height: 40px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #414141;
+    text-align: left;
+    width: 260px;
+    float: right;
+    position: relative;
+    margin-top: 15px;
+}
+.rw_body_div_shopping-heji font{
+	font-family: Adobe Caslon Pro;
+}
+.rw_body_div_shopping-heji input{
+	width: 110px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    -webkit-appearance: none;
+    background: #c71f2c;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.rw_body_div_dingd{
+	width: 100%;
+    font-size: 12px;
+}
+.rw_body_div_dingd div{
+	font-size: 18px;
+    line-height: 30px;
+}
+.rw_body_div_dingd p{
+	display: block;
+}
+.rw_body_div_dingd p a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+/*底部*/
+
+.rw_bottom {
+	width: 100%;
+	clear: both;
+	background: #414141;
+	min-width: 1240px;
+	color: #fff;
+}
+
+
+/**/
+
+.rw_bottom_div {
+	position: relative;
+	width: 1240px;
+	margin: 0 auto;
+	height: 210px;
+	padding-top: 50px;
+}
+
+.rw_bottom_div ul {
+	margin-top: 0;
+	float: left;
+	padding: 0 66px;
+	text-align: center;
+}
+
+.rw_bottom_div ul p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.rw_bottom_div ul li {
+	list-style: none;
+	line-height: 30px;
+	color: #000;
+	text-align: left;
+	margin-left: 1px;
+}
+
+.rw_bottom_div ul li a {
+	color: #afafaf;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+
+/**/
+
+.f_weixin {
+	background: url(../img/weixin.png) no-repeat right;
+}
+
+.f_weibo {
+	background: url(../img/weibo.jpg) no-repeat right;
+}
+
+
+/**/
+
+.new_r dt {
+	float: left;
+	margin-right: 25px;
+	width: 102px;
+	height: 101px;
+	background: url(../img/di_erweima.jpg);
+	background-size: 100%;
+}
+
+
+/**/
+
+.new_r dd {
+	float: left;
+	color: #afafaf;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.footer-yyzz {
+	display: block !important;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 240px;
+	color: #fff;
+	font-size: 12px;
+	text-align: right;
+}
+
+.footer-yyzz a {
+	margin-left: 15px;
+	padding-left: 15px;
+	background: url(../img/zheng.png) no-repeat left center;
+	background-size: auto 80%;
+	font-size: 12px;
+	color: #afafaf;
+	text-decoration: none;
+}
+
+
+/**/
+
+.foot-nav {
+	width: 1240px;
+	height: 58px;
+	font-size: 14px;
+	background: #414141;
+	color: #afafaf;
+	clear: both;
+	text-align: right;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.mes_content {
+	width: 115px;
+	height: 120px;
+	position: fixed;
+	bottom: 55px;
+	right: 50px;
+}
+
+.mes_icon {
+	width: 102px;
+	height: 120px;
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+
+#zhichiBtnBox {
+	position: fixed;
+	z-index: 999;
+	box-sizing: content-box;
+	height: 45px;
+	bottom: 100px;
+	width: 45px;
+	right: 5px;
+	background: #969696;
+	border-radius: 5px;
+}
+
+#zhichiBtn {
+	text-decoration: none;
+	outline: none;
+	font-family: Microsoft Yahei, Arial, Helvetica;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	float: none;
+}
+
+#zhichiBtn img {
+	vertical-align: middle;
+	border: none;
+	float: none;
+	position: static;
+	margin-left: 0px;
+	width: 42px;
+	height: 45px;
+}
+
+.mes_icon>div {
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*边框旁边的小箭头*/
+
+.tel_sj {
+	position: absolute;
+	right: -9px;
+	top: 45px;
+}
+
+.tel_txt {
+	color: #8d8d8d;
+	font-size: 12px;
+	background: url(../img/tel.svg) no-repeat -16px -9px;
+	background-size: 66px;
+	line-height: 25px;
+	margin: 0px;
+	margin-top: 8px;
+	padding-left: 11px;
+	letter-spacing: 1px;
+}
+
+.tel_phone {
+	color: #414141;
+	font-size: 12px;
+	margin: 0px;
+}
+
+
+/*白色盒子的实线*/
+
+.tel_line {
+	width: 86px;
+	border-top: 1px solid #dfdfdf;
+	margin: 0px auto;
+	margin-top: 12px;
+}
+
+
+/*红色按钮在线客服*/
+
+.zxkf_txt {
+	background: #969696;
+	width: 86px;
+	height: 28px;
+	color: #FFFFFF;
+	line-height: 28px;
+	border-radius: 3px;
+	margin: 0px auto;
+	margin-top: 8px;
+	display: block;
+	letter-spacing: 1px;
+}
+
+.zxkf_txt>a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+/*二维码盒子*/
+
+#ewmBox {
+	position: fixed;
+	z-index: 999;
+	box-sizing: content-box;
+	height: 45px;
+	bottom: 155px;
+	width: 45px;
+	right: 5px;
+	background: #969696;
+	border-radius: 5px;
+}
+
+#ewm {
+	text-decoration: none;
+	outline: none;
+	font-family: Microsoft Yahei, Arial, Helvetica;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	float: none;
+}
+
+#ewm img {
+	margin-left: 5px;
+	width: 35px;
+	height: 45px;
+}
+
+.ewm_content {
+	width: 140px;
+	height: 206px;
+	position: fixed;
+	bottom: 41px;
+	right: 57px;
+	display: none;
+	background: url(../img/kk.png);
+}
